@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #716f6f;
+    height: 100dvh;
+    width: 100dvw;
+}
+
+.container{
+    width: 50dvw;
+    margin: 30dvh auto;
+}
+
+.card{
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 400px;
+    min-height: 250px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid white;
+    box-shadow: 1px 2px 15px;
+    vertical-align: top; /* Solución de IA */
+
+}
+.info {
+    min-height: 100px;
+    margin: 30px 0 0 0;
+    display: inline-block;
+    width: 60%;
+}
+
+.info h2{
+    margin: 10px 0;
+}
+
+.card a{
+    display: block;
+    padding: 15px;
+    background-image: linear-gradient(to right, #525ef1 , #2eeed0);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    text-decoration: none;;
+}
+
+
