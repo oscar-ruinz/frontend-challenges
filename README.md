@@ -22,3 +22,10 @@ HTML, CSS and Javascript challenges made by the good Gemini teacher
     <img width="70%" height="100%" src="./Assets/Images/Recipe-Card/mine.png" alt="Product Card" />
   </a>
 </p>
+
+### - Testimony Card
+<p style="text-align:center;">
+  <a href='/Testimony-Card/README.md'>
+    <img width="70%" height="100%" src="./Assets/Images/Testimony-Card/mine.png" alt="Product Card" />
+  </a>
+</p>

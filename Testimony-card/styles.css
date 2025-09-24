@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    width: 100dvw;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card{
+    display: flex;
+    width: 550px;
+    height: 200px;
+    background: #f0f0f0;
+    border-radius: 20px;
+    transition: all 1s ease;
+    box-shadow: 1px 20px 25px #00000048;
+}
+
+.card:hover{
+    background:#343434;
+    color: white;
+    box-shadow: 1px 20px 25px #00000048;
+    .avatar img{
+        border: 3px solid white
+    }
+}
+
+.avatar{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar img{
+    border-radius: 100%;
+    width: 120px;
+    transition: all 1s ease;
+}
+.testimony{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.testimony h2{
+    width: 90%;
+    font-weight: 400;
+    font-size: 25px;
+}
+.info{
+    width: 60%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.info h3, .info p{
+    margin: 0;
+}
+.info h3{
+    width: 100%;
+    font-size: 15px;
+}
+.info p{
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+.score{
+    width: 40%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
